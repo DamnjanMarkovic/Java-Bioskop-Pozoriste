@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.comtrade.view.RezervacijaForma">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="17" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="613" height="459"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="100ca" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Pozoriste:"/>
+        </properties>
+      </component>
+      <component id="b743f" class="javax.swing.JComboBox" binding="cbPozoriste">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximumRowCount value="33"/>
+        </properties>
+      </component>
+      <component id="80a89" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Predstava:"/>
+        </properties>
+      </component>
+      <component id="70c31" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Termin"/>
+        </properties>
+      </component>
+      <component id="9f325" class="javax.swing.JComboBox" binding="cbPredstava">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximumRowCount value="100"/>
+        </properties>
+      </component>
+      <component id="7e1ea" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="13" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Zeljeni broj karata:"/>
+        </properties>
+      </component>
+      <component id="f50c1" class="javax.swing.JTextField" binding="tfBrojKarata">
+        <constraints>
+          <grid row="13" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="d76bb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Raspolozivi broj karata:"/>
+        </properties>
+      </component>
+      <component id="d6814" class="javax.swing.JLabel" binding="lblBrojKarata">
+        <constraints>
+          <grid row="11" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="?"/>
+        </properties>
+      </component>
+      <component id="69936" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DOBRODOSAO REGISTROVANI KORISNIK "/>
+        </properties>
+      </component>
+      <hspacer id="6e99f">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="e56e8">
+        <constraints>
+          <grid row="5" column="7" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="2e142">
+        <constraints>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="100ea">
+        <constraints>
+          <grid row="11" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <hspacer id="1ee0a">
+        <constraints>
+          <grid row="11" column="2" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <vspacer id="1210e">
+        <constraints>
+          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="8ebc7">
+        <constraints>
+          <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="bbf35">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="54ed9">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ded4b">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="bb663">
+        <constraints>
+          <grid row="10" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="11" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="d0302">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3ebaa">
+        <constraints>
+          <grid row="14" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="3fcbb">
+        <constraints>
+          <grid row="15" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="2a6ac" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Izaberi datum:"/>
+        </properties>
+      </component>
+      <component id="c0796" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Izaberi vreme:"/>
+        </properties>
+      </component>
+      <component id="80ab9" class="javax.swing.JComboBox" binding="cbTerminDatum">
+        <constraints>
+          <grid row="8" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximumRowCount value="100"/>
+        </properties>
+      </component>
+      <component id="575a1" class="javax.swing.JComboBox" binding="cbTerminVreme">
+        <constraints>
+          <grid row="9" column="2" row-span="1" col-span="5" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <maximumRowCount value="100"/>
+        </properties>
+      </component>
+      <component id="81146" class="javax.swing.JButton" binding="REZERVISIButton" default-binding="true">
+        <constraints>
+          <grid row="15" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="REZERVISI"/>
+        </properties>
+      </component>
+      <hspacer id="34305">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="93032" class="javax.swing.JLabel" binding="lblKorisnik">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Label"/>
+        </properties>
+      </component>
+      <component id="bc029" class="javax.swing.JButton" binding="INFOOPREDSTAVIButton" default-binding="true">
+        <constraints>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="INFO O PREDSTAVI"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

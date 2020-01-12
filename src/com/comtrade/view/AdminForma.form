@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.comtrade.view.AdminForma">
+  <grid id="27dc6" binding="jPanel" layout-manager="GridLayoutManager" row-count="4" column-count="17" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="14" width="849" height="417"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="eb411" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="32" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="POZORISTE"/>
+        </properties>
+      </component>
+      <component id="7993f" class="javax.swing.JComboBox" binding="cbPozoriste">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="14" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="cc84f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="32" height="34"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="PREDSTAVA"/>
+        </properties>
+      </component>
+      <component id="65ceb" class="javax.swing.JComboBox" binding="cbPredstava">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="14" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="34"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <scrollpane id="81dfe" binding="jScrollPane">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="15" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="454" height="122"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="b2862" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="4eb1" class="javax.swing.JButton" binding="POZORISTAButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="POZORISTA"/>
+        </properties>
+      </component>
+      <component id="37bc2" class="javax.swing.JButton" binding="NOVIKORISNIKButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="15" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="NOVI KORISNIK"/>
+        </properties>
+      </component>
+      <hspacer id="f38b0">
+        <constraints>
+          <grid row="2" column="16" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="122"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <hspacer id="b52b1">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="14" height="122"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="e18d3" class="javax.swing.JButton" binding="PREDSTAVEButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PREDSTAVE"/>
+        </properties>
+      </component>
+      <component id="702e5" class="javax.swing.JButton" binding="TERMINIButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TERMINI"/>
+        </properties>
+      </component>
+      <component id="f4429" class="javax.swing.JButton" binding="GLUMCIButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="10" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="GLUMCI"/>
+        </properties>
+      </component>
+      <component id="dbf52" class="javax.swing.JButton" binding="REZERVACIJEButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="REZERVACIJE"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
